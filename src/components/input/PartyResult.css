@@ -1,0 +1,26 @@
+.party-item {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  flex: 1 1 25%;
+  height: 5rem;
+  display: grid;
+  align-items: center;
+  border-radius: 12px;
+
+
+}
+.party-item input {
+  font: inherit;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 4rem;
+  max-width: 100%;
+    justify-self: center;
+}
+
+.party-item-color {
+    background-color: #ccc;
+}
